@@ -1,22 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Muhammad Essam CV</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Essam CV</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        h1, h2 { color: #333; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            margin-right: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Muhammad Essam</h1>
-    <p>Researcher / Teaching Assistant</p>
-    <h2>Experience</h2>
-    <ul>
-        <li>Teaching Assistant at Minia University</li>
-        <li>Software Engineer at Tech Trans</li>
-    </ul>
-    <!-- Add more sections for education, projects, etc., similar to your PDF content -->
+
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Muhammad Essam</h1>
+                <p><strong>Researcher / Teaching Assistant</strong></p>
+                <p>Minia, Egypt | (+20) 1116535030 | <a href="mailto:muhammad.essam@mu.edu.eg">muhammad.essam@mu.edu.eg</a></p>
+                <p><a href="https://www.linkedin.com/in/muhammad-essam-hassan/">LinkedIn</a> | <a href="https://www.researchgate.net/profile/Muhammad-Essam-2">ResearchGate</a></p>
+            </div>
+            <div>
+                <img src="22.png" alt="Muhammad Essam">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Minia University | Faculty of Engineering</strong><br>
+                    M.Sc. Computers and Systems Engineering | Sep. 2019 – Oct. 2024 | Minia, Egypt<br>
+                    Specialties: Optimization, Model Predictive Control<br>
+                    Thesis: Optimal Hybrid Control for Unstable Robotic Systems
+                </li>
+                <li><strong>Minia University | Faculty of Engineering</strong><br>
+                    B.Sc. Computer and Systems Engineering | Sep. 2013 – Jul. 2018 | Minia, Egypt<br>
+                    Graduated 1st in class
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Minia University</strong><br>
+                    Teaching Assistant | Feb. 2019 – Present | Minia, Egypt<br>
+                    - Conducted lab sessions for undergraduate courses: Digital Control Systems, Systems Analysis, Computer Control, Operations Research, Embedded Systems, and Machine Learning.<br>
+                    - Supervised and mentored students on their graduation projects.<br>
+                    - Participated in the evaluation process, grading assignments, exams, and projects.
+                </li>
+                <li><strong>Tech Trans</strong><br>
+                    Software Engineer (Part-time, Remote) | Sep. 2023 – Present | Riyadh, KSA<br>
+                    - Implemented best practices in software development, including code reviews, testing, and version control.<br>
+                    - Utilized various programming languages and technologies to build robust and scalable applications.
+                </li>
+                <li><strong>Freelancer Software Engineer</strong><br>
+                    2020 – 2023<br>
+                    - Developed and maintained high-quality software applications.<br>
+                    - Collaborated with cross-functional teams to deliver projects on time.
+                </li>
+                <li><strong>IBM Machine Learning Internship</strong><br>
+                    Smart Village | 2017<br>
+                    - Built and deployed a recommendation system using Flask over IBM developer API.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Optimal Hybrid Control for Unstable Robotic System (2024)</strong><br>
+                    M.Sc. Thesis Project<br>
+                    - Built a two-wheeled self-balancing robot prototype along with its mathematical model.<br>
+                    - Performed nonlinear model parameter estimation using the Least Squares optimization method.<br>
+                    - Developed and deployed an MPC control algorithm for robot stabilization.<br>
+                    - Formulated the MPC controller as a QP problem, solved using the Active Set method.
+                </li>
+                <li><strong>Cooperative Control of Multi-Agent System for Industrial Internet of Robotic Things (2018)</strong><br>
+                    Graduation Project<br>
+                    - Built three omni-directional mobile robot prototypes using Arduino UNO and ESP01 WiFi modules.<br>
+                    - Implemented a centralized feedback control algorithm for path planning and obstacle avoidance.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>Modeling and Parameters Estimation of a Self-Balancing Two-Wheeled Vehicle</strong><br>
+                    <a href="https://www.researchgate.net/publication/382022584_Modeling_and_Parameters_Estimation_of_a_Self-Balancing_Two-Wheeled_Vehicle">Link to Publication</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Awards and Grants</h2>
+            <ul>
+                <li>Winner of project fund from the Academy of Scientific Research and Technology (ASRT) for my graduation project (2018).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages/Frameworks:</strong> MATLAB, Simulink, ROS, Python, C++, SQL, PHP, JavaScript</li>
+                <li><strong>Optimization:</strong> CasADI, qpOASES</li>
+                <li><strong>Others:</strong> Linux, Git, Docker, Web Development, Software Engineering, Laravel, Vue</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>References</h2>
+            <ul>
+                <li><strong>Prof. Dr. Mohammed Moness:</strong> <a href="mailto:m.moness@mu.edu.eg">m.moness@mu.edu.eg</a></li>
+                <li><strong>Dr. Ahmed M. Moustafa:</strong> <a href="mailto:ahmed.mahmoud@mu.edu.eg">ahmed.mahmoud@mu.edu.eg</a></li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
