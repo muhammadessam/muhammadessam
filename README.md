@@ -1,5 +1,4 @@
-# Mohamed Essam Saleh — Selected CV Sections
-
+# Mohamed Saleh
 ## Work Experience
 
 ### Research Associate (Short-Term Contract) · Peter L. Reichertz Institute for Medical Informatics (MHH) — Hannover, Germany  
