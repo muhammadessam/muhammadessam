@@ -1,112 +1,192 @@
 # Mohamed Saleh
-**Research — Control & Machine Learning**
 
-Hannover, Germany • [+49 162 7755 198](tel:+491627755198) • [muhammad.ahmed.essam@gmail.com](mailto:mohamed.saleh.de@outlook.com) • [LinkedIn](https://www.linkedin.com/in/muhammad-essam-hassan/) • [ResearchGate](https://www.researchgate.net/profile/Muhammad-Essam-2)
+**Electrical Engineer & Researcher · Hannover, Germany**
+
+[![Email](https://img.shields.io/badge/Email-mohamed.saleh.de%40outlook.com-blue?style=flat-square&logo=microsoft-outlook)](mailto:mohamed.saleh.de@outlook.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.00701-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.00701)
+[![GitHub](https://img.shields.io/badge/GitHub-control--systems101-181717?style=flat-square&logo=github)](https://github.com/control-systems101)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate)](https://www.researchgate.net/profile/Mohamed-Saleh)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B49%201627755198-25D366?style=flat-square&logo=whatsapp)](https://wa.me/+491627755198)
 
 ---
 
-## Professional Summary
-Control & ML researcher focused on MPC for unstable robotic systems (nonlinear modeling, state estimation, constraint-aware real-time deployment) and data-driven modeling (DMDc/Koopman). On the neuromorphic side, I build SNN/spiking-transformer pipelines in PyTorch/SpikingJelly (LIF/PLIF, surrogate gradients, temporal/rate/latency encodings), including linear-attention backbones and cross-modal audio-video fusion validated on CREMA-D, AVE, and US8K-AV. Strong software skills: Python, and MATLAB; clean architecture, Git, CI/CD, Docker; HPC (Slurm, remote-SSH), Linux, profiling/experiment tracking—aimed at event-based MPC, algorithm–hardware co-design, and energy-aware edge deployment.
+## About Me
+
+I am a researcher working at the intersection of **control systems and machine learning** — two disciplines I have pursued in depth and am now driven to unify. My work spans real-time Model Predictive Control for unstable robotic systems and energy-efficient spiking neural architectures for multimodal perception, giving me a dual fluency in **optimization-grounded control theory** and **modern deep learning**.
+
+My current research interest lies in **integrating predictive control with learned representations**, with applications in robotics, autonomous systems, and resource-constrained edge intelligence. I am actively seeking a PhD position to pursue this direction rigorously and at scale.
 
 ---
 
 ## Education
-**M.Sc. in Electrical Engineering (Computers & Systems)** — *2024*  
-Minia University, Faculty of Engineering — Minia, Egypt  
-- Thesis: **Optimal Hybrid Control for Unstable Robotic Systems**  
-- Specialization: High-fidelity nonlinear modeling of a two-wheeled self-balancing robot and real-time MPC for robust stabilization and trajectory tracking.  
-- Core Competencies: Optimization Theory, Mathematical Modeling, Model Predictive Control, System Identification, Sim2Real Transfer.
 
-**B.Sc. in Computer and Systems Engineering** — *2018*  
-Minia University, Faculty of Engineering — Minia, Egypt  
-- Graduated **1st in Class**, Distinction with Honors (3.75/4 — 89.3%).  
-- Graduation Project: **Cooperative Control of Multi-agent System for Industrial Internet of Robotic Things** (Grade: Distinction).
+### M.Sc. in Electrical Engineering (Computer & Systems)
+**Minia University, Faculty of Engineering** — Minia, Egypt · *2024*
 
----
+- **Ranked 1st in Class** | Cumulative GPA: 85.17%
+- **Thesis:** *Optimal Hybrid Control for Unstable Robotic Systems* · [[PDF](https://muedueg-my.sharepoint.com/:b:/g/personal/muhammad_essam_mu_edu_eg/ESSOphQX2ApEn1N4oOotgKABKByLNAQNmWKk8xV2fbcv7g?e=0YFazy)]
+- **Focus Areas:** Optimization Theory, Nonlinear Modeling, Model Predictive Control (MPC), Grey-Box System Identification, Embedded Real-Time Control
+- **Key Achievement:** Formulated and deployed constrained MPC (via Quadratic Programming) on physical hardware at 200 Hz, successfully bridging MATLAB/Simulink simulation to Raspberry Pi 4 in a closed-loop robotic control task.
+- **Supervisors:** Prof. Mohammed Moness & Dr. Ahmed Mahmoud Moustafa (Minia University)
 
-## Research Experience
-**Research Associate (Short-Term Contract)** — *Apr 2025 – Oct 2025*  
-[Peter L. Reichertz Institute for Medical Informatics (PLRI), MHH](https://www.plri.de/en) — Hannover, Germany  
-- Investigated energy-efficient, multi-modal spiking neural network transformer architectures and cross-modal fusion for HRI and healthcare.  
-- Built reproducible PyTorch/SpikingJelly training pipelines, dataset preprocessing, and evaluation suites.  
-- Focus: SNNs, spiking-based transformers, linear attention, multi-modal spiking fusion.
+### B.Sc. in Computer and Systems Engineering
+**Minia University, Faculty of Engineering** — Minia, Egypt · *2018*
 
-**Researcher | Teaching Assistant** — *Feb 2019 – Mar 2024*  
-Minia University, Faculty of Engineering — Minia, Egypt  
-- Designed and taught curricula: Digital Control, Systems Analysis, Machine Learning, Operations Research.  
-- Supervised robotics projects from data preprocessing to embedded deployment, bridging theory and hardware.  
-- Focus: MPC, system identification (DMDc), Kalman filtering, HIL.
+- **Distinction with Honors · 89.3% · Ranked 1st in Class**
+- **Graduation Project:** *Cooperative Control of Multi-Agent System for Industrial Internet of Robotic Things* — Awarded a competitive research fund by the Academy of Scientific Research and Technology (ASRT). **Grade: Distinction.** · [[Report](https://www.researchgate.net/publication/326446132_Cooperative_Control_of_Multi-agent_System_for_Industrial_Internet_of_Robotic_Things)]
 
 ---
 
-## Industry Experience
-**Software Engineer (Part-time, Remote)** — *Sep 2023 – Mar 2025*  
-TransTech — Riyadh, KSA  
-- Built and maintained scalable software solutions with robust performance.  
-- Delivered features end-to-end with cross-functional teams on schedule and to spec.
+## Research & Academic Experience
 
-**Machine Learning Intern** — *2017*  
-IBM Egypt — Cairo, Egypt  
-- Built and deployed a recommendation system using Flask and IBM Developer Cloud.  
-- Gained foundations in API development and ML deployment.
+### Research Associate (Short-Term Contract)
+**Peter L. Reichertz Institute for Medical Informatics (PLRI/MHH)** — Hannover, Germany · *Apr. 2025 – Oct. 2025*
+
+*Supervised by Dr. rer. nat. Zahra Ahmadi (EMuLe & CAIMed, Junior Group Leader)*
+
+- Independently identified multimodal audio-visual learning as an underexplored direction within energy-efficient SNNs and scoped the full research problem that became the **SNNergy** project.
+- Designed the **Cross-Modal Query-Key Attention (CMQKA)** mechanism, reducing cross-modal attention complexity from O(N²) to O(N) through binary spike decomposition — enabling, for the first time, a deep hierarchical multimodal SNN architecture.
+- Authored a neuromorphic hardware access proposal targeting Intel Loihi deployment of SNNergy, bridging algorithmic efficiency with real-time edge inference constraints.
+- Co-authored a manuscript submitted to *Information Fusion* (Elsevier, 2026) and presented research outcomes at an institute-wide cross-group research exchange.
+- Conducted a comprehensive literature review spanning spiking transformers, multimodal fusion strategies, and neuromorphic computing.
+
+### Researcher & Teaching Assistant
+**Minia University, Faculty of Engineering** — Minia, Egypt · *Feb. 2019 – Mar. 2024*
+
+**Research:**
+- Conducted M.Sc. research on real-time MPC, grey-box system identification, and hybrid modeling for nonlinear robotic platforms.
+- Applied Dynamic Mode Decomposition with Control (DMDc) to extract linear state-space models from sensor data collected on a physical TWSBR, directly integrating the identified model into a closed-loop MPC framework.
+- Published peer-reviewed research on nonlinear modeling and parameter estimation (see Publications).
+
+**Teaching:**
+- Independently delivered undergraduate courses in **Embedded Systems** and **Machine Learning** electives.
+- Assisted senior faculty in **Digital Control Systems**, **Systems Analysis & Design**, and **Operations Research**.
+
+**Mentorship:**
+- Coached interdisciplinary student teams through the complete hardware/software lifecycle: from data preprocessing and algorithm design to embedded deployment and real-time validation of control algorithms.
+
+**Service:**
+- Presented research at departmental seminars; contributed to lab equipment management and exam supervision.
+
+### Machine Learning Internship
+**IBM Egypt** — Cairo, Egypt · *2017*
+
+- Built and deployed a recommendation system using Flask and IBM Developer Cloud.
+- Gained foundational experience in API development and production machine learning pipelines.
 
 ---
 
 ## Publications
-- **Muhammad Hassan**, Ahmed Mahmoud Moustafa, Mohammed Moness.  
-  “Modeling and Parameters Estimation of a Self-Balancing Two-Wheeled Vehicle.” *Journal of Advanced Engineering Trends* 43(1), 2024, pp. 373–381.  
-  [Publication link](https://www.researchgate.net/publication/382022584_Modeling_and_Parameters_Estimation_of_a_Self-Balancing_Two-Wheeled_Vehicle)
+
+1. **Mohamed Saleh**, Zahra Ahmadi. "Cross-Modal Binary Attention: An Energy-Efficient Fusion Framework for Audio-Visual Learning." *Submitted to Information Fusion* (Elsevier), 2026. · [[arXiv:2602.00701](https://arxiv.org/abs/2602.00701)]
+
+2. **Muhammad Hassan**\*, Ahmed Mahmoud Moustafa, and Mohammed Moness. "Modeling and Parameters Estimation of a Self-Balancing Two-Wheeled Vehicle." *Journal of Advanced Engineering Trends*, 43.1 (2024): 373–381. · [[Link](https://www.researchgate.net/publication/382022584_Modeling_and_Parameters_Estimation_of_a_Self-Balancing_Two-Wheeled_Vehicle)]
+
+> \* *Note: "Muhammad Hassan" is an alternative transliteration of my name (Mohamed Saleh) used in earlier publications.*
 
 ---
 
 ## Key Research Projects
-**Audio-Visual Event Learning with Spiking Transformers (Research Prototype)** — *2025*  
-- Prototyped spiking backbones (LIF/PLIF), temporal coding (rate/temporal), and multimodal fusion (video/audio; token/channel attention).  
-- Implemented a linear-attention spiking transformer; evaluated on **CREMA-D**, **AVE**, and **US8K-AV** with competitive baseline performance and stable low-spike training.
 
-**Real-Time MPC for a Two-Wheeled Self-Balancing Robot** — *2024 · M.Sc. Thesis*  
-- End-to-end pipeline: nonlinear modeling → IMU/encoder fusion → constraint-aware MPC → embedded actuation.  
-- Tracking MPC with input/state/rate limits; verified real-time deadlines; deployed on Raspberry Pi.  
-- Achieved robust stabilization and trajectory tracking; profiled loop timing.  
-  [Video](https://youtu.be/wMrWURC7zU8)
+### Real-Time MPC for a Two-Wheeled Self-Balancing Robot (TWSBR)
+[![Video](https://img.shields.io/badge/Video-Demo-red?style=flat-square&logo=youtube)](https://youtu.be/wMrWURC7zU8)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/control-systems101/MPC)
+[![Thesis](https://img.shields.io/badge/Thesis-PDF-orange?style=flat-square)](https://muedueg-my.sharepoint.com/:b:/g/personal/muhammad_essam_mu_edu_eg/ESSOphQX2ApEn1N4oOotgKABKByLNAQNmWKk8xV2fbcv7g?e=0YFazy)
 
-**Data-Driven Modeling for MPC via DMDc** — *2024*  
-- Built a DMDc model from IMU/encoder logs; closed the loop with MPC.  
-- Evaluated prediction/control performance; analyzed controllability/observability.
+*M.Sc. Thesis · Minia University · 2024*
 
-**Kalman Filtering for IMU-based Tilt Estimation** — *2024*  
-- Sensor fusion (accelerometer/gyroscope) for tilt angle; compared EKF/UKF; tuned noise models for stability.
+- Derived a full nonlinear dynamic model via **Lagrangian mechanics**, capturing wheel-body coupling, friction, and actuator dynamics.
+- Performed **grey-box parameter estimation** through a sensitivity-guided, two-stage successive optimization strategy to resolve physically ambiguous parameters (moments of inertia, viscous friction, CoG location) under limited measurement data.
+- Applied **DMDc** to extract a linear state-space model directly from sensor data on the physical platform; integrated the identified model in a closed-loop predictive control framework — demonstrating the complete data-to-control pipeline.
+- Formulated constrained MPC as a **Quadratic Programming (QP)** problem (prediction horizon N=20, control horizon N=5, T_s=5 ms) and deployed on **Raspberry Pi 4 at 200 Hz** using MATLAB/Simulink embedded code generation.
+- Experimentally demonstrated that constraint-aware MPC eliminates actuator saturation and oscillations endemic to unconstrained formulations, with validated **Sim2Real transfer** on physical hardware.
+
+---
+
+### SNNergy: A Deep Hierarchical Multimodal Spiking Transformer Framework
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/muhammadessam/linear_attention_res_learning)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.00701-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.00701)
+
+*Research Associate · PLRI/MHH · 2025*
+
+- Designed **CMQKA (Cross-Modal Query-Key Attention)**, reducing cross-modal attention complexity from **O(N²) to O(N)** through channel-aggregated binary spike decomposition, enabling the first deep hierarchical multimodal SNN architecture for audio-visual learning.
+- Architected **SNNergy**, a three-stage hierarchical SNN framework (H/4 → H/8 → H/16) using SpikingJelly/PyTorch, trained on NVIDIA A100 GPUs with surrogate gradient BPTT.
+- Achieved **state-of-the-art results** among SNN-based multimodal methods:
+
+| Dataset | SNNergy | Prev. Best SNN | vs. Best ANN Baseline |
+|---|---|---|---|
+| CREMA-D | **78.38%** | 77.55% (TAAF-SNNs) | +1.92% over OGM-EG |
+| AVE | **72.14%** | 70.65% (TAAF-SNNs) | +7.47% over OGM-EG |
+| UrbanSound8K-AV | **99.66%** | 98.28% (CMCI) | Competitive |
+
+- Proposed SNNergy as a target for deployment on **Intel Loihi neuromorphic hardware**, bridging algorithmic efficiency with real-time edge inference constraints in a hardware access proposal.
+- Submitted to *Information Fusion* (Elsevier, 2026) · arXiv:2602.00701.
+
+---
+
+### Cooperative Control of Multi-Agent System for Industrial IoRT
+[![Report](https://img.shields.io/badge/Report-ResearchGate-00CCBB?style=flat-square&logo=researchgate)](https://www.researchgate.net/publication/326446132_Cooperative_Control_of_Multi-agent_System_for_Industrial_Internet_of_Robotic_Things)
+
+*B.Sc. Graduation Project · Minia University · 2018 · Funded by ASRT*
+
+- Designed and built three autonomous mobile robots and implemented a **centralized feedback control algorithm** for multi-agent coordination in a simulated industrial environment.
+- Awarded a competitive research grant by the **Academy of Scientific Research and Technology (ASRT)**, Egypt.
+- Explored decentralized decision-making architectures as a research extension, establishing a foundation for multi-agent coordination challenges in connected production environments.
 
 ---
 
 ## Technical Skills
-- **Control & Optimization:** Linear MPC; constraint handling (state/input); horizon tuning; terminal ingredients; CasADi.  
-- **Neuromorphic & Event-Based:** SNNs (LIF/PLIF); surrogate-gradient training; spike-rate/temporal coding; PyTorch & SpikingJelly; event-driven processing.  
-- **Robotics & Perception:** Dynamics/kinematics; manipulator control (sim); state estimation (EKF/UKF); IMU/camera fusion; encoders.  
-- **Scientific Computing & Software:** MATLAB/Simulink; Python (NumPy/SciPy/PyTorch); Git; Linux; Docker; reproducible experiments & profiling.  
-- **Embedded/Hardware:** Raspberry Pi; Arduino/MCU; H-bridges; encoders; IMUs (MPU-6050/9250); PWM; real-time loop timing & jitter mitigation.
+
+**Control & Optimization**
+Model Predictive Control (Linear/Nonlinear/Robust), Quadratic Programming (QP), LQR/LQG, Optimal Control, Constraint Handling, Receding Horizon Control, Dynamic Mode Decomposition with Control (DMDc)
+
+**Modeling & System Identification**
+Nonlinear System Modeling, Grey-Box Identification, Sensitivity Analysis, Lagrangian Mechanics, State-Space Representations, EKF/UKF State Estimation
+
+**Machine Learning & Deep Learning**
+Spiking Neural Networks (SNNs), Transformer Architectures, Multimodal Fusion, Surrogate Gradient Training (BPTT), PyTorch, SpikingJelly, Deep Learning
+
+**Simulation & Implementation**
+MATLAB/Simulink (code generation, hardware deployment), Python (NumPy, SciPy, CasADi), Real-Time Control Loop Design, Hardware-in-the-Loop Validation, Sim2Real Transfer
+
+**Embedded Systems & Hardware**
+Raspberry Pi 4, Microcontroller Deployment, Sensor Fusion, H-Bridge Motor Control, IMU Integration
+
+**Programming & Tools**
+Python · C/C++ · MATLAB · Simulink · Git · Linux · Docker · LaTeX
+
+**Languages**
+Arabic (Native) · English (Professional/Academic) · German (Learning)
 
 ---
 
 ## Awards & Grants
-- Winner, **ASRT** project fund for graduation project (2018).
 
----
+- **Research Fund Award** — Academy of Scientific Research and Technology (ASRT), Egypt · *2018*
+  Awarded competitive funding for the B.Sc. graduation project on cooperative control of multi-agent robotic systems.
 
-## Research Interests
-- **Event-based MPC & Neuromorphic Control:** Triggered optimization, constraint-violation events, event-driven solvers.  
-- **Real-Time Optimal Control:** Efficient optimal control (e.g., MPC) on hardware under constraints.  
-- **Spiking Hardware & Software:** Algorithm–hardware co-design; learning rules; surrogate gradients for real-time control.  
-- **Hybrid Modeling & System ID:** Combining physics-based models with data-driven identification for robotic systems.
+- **M.Sc. Ranked 1st in Class** — Faculty of Engineering, Minia University · *2024*
+
+- **B.Sc. Ranked 1st in Class, Distinction with Honors (89.3%)** — Faculty of Engineering, Minia University · *2018*
 
 ---
 
 ## References
-- **Dr. rer. nat. Zahra Ahmadi, PhD** — [zahra.ahmadi@plri.de](mailto:zahra.ahmadi@plri.de)  
-- **Dr. Ahmed M. Moustafa** — [ahmed.mahmoud@mu.edu.eg](mailto:ahmed.mahmoud@mu.edu.eg)
+
+**Dr. rer. nat. Zahra Ahmadi**
+Junior Group Leader, EMuLe & CAIMed
+Peter L. Reichertz Institute for Medical Informatics (PLRI), TU Braunschweig & Hannover Medical School
+✉ [zahra.ahmadi@plri.de](mailto:zahra.ahmadi@plri.de)
+
+**Dr. Ahmed M. Moustafa**
+Head, Computer and Systems Engineering Department
+Faculty of Engineering, Minia University, Egypt
+✉ [ahmed.mahmoud@mu.edu.eg](mailto:ahmed.mahmoud@mu.edu.eg)
 
 ---
 
-## Additional Links
-- WhatsApp: [+49 162 7755 198](https://wa.me/+491627755198)  
-- [PLRI](https://www.plri.de/en) • [Minia University](https://eng.minia.edu.eg/Ehome.aspx) • [TransTech](https://altqniah.sa/)
+<div align="center">
+
+*"I bridge the gap between what systems can predict and what they can learn."*
+
+</div>
