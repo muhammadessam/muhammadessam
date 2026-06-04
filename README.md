@@ -1,23 +1,23 @@
 # Mohamed Saleh
 **Research — Control & Machine Learning**
 
-Hannover, Germany • [+49 162 7755 198](tel:+491627755198) • [muhammad.ahmed.essam@gmail.com](mailto:muhammad.ahmed.essam@gmail.com) • [LinkedIn](https://www.linkedin.com/in/muhammad-essam-hassan/) • [ResearchGate](https://www.researchgate.net/profile/Muhammad-Essam-2)
+Hannover, Germany • [+49 162 7755 198](tel:+491627755198) • [muhammad.ahmed.essam@gmail.com](mailto:mohamed.saleh.de@outlook.com) • [LinkedIn](https://www.linkedin.com/in/muhammad-essam-hassan/) • [ResearchGate](https://www.researchgate.net/profile/Muhammad-Essam-2)
 
 ---
 
 ## Professional Summary
-Control & ML researcher focused on MPC for unstable robotic systems (nonlinear modeling, state estimation, constraint-aware real-time deployment) and data-driven modeling (DMDc/Koopman). On the neuromorphic side, I build SNN/spiking-transformer pipelines in PyTorch/SpikingJelly (LIF/PLIF, surrogate gradients, temporal/rate/latency encodings), including linear-attention backbones and cross-modal audio-video fusion validated on CREMA-D, AVE, and US8K-AV. Strong software skills: Python, MATLAB, and full-stack Laravel/Vue; clean architecture, Git, CI/CD, Docker; HPC (Slurm, remote-SSH), Linux, profiling/experiment tracking—aimed at event-based MPC, algorithm–hardware co-design, and energy-aware edge deployment.
+Control & ML researcher focused on MPC for unstable robotic systems (nonlinear modeling, state estimation, constraint-aware real-time deployment) and data-driven modeling (DMDc/Koopman). On the neuromorphic side, I build SNN/spiking-transformer pipelines in PyTorch/SpikingJelly (LIF/PLIF, surrogate gradients, temporal/rate/latency encodings), including linear-attention backbones and cross-modal audio-video fusion validated on CREMA-D, AVE, and US8K-AV. Strong software skills: Python, and MATLAB; clean architecture, Git, CI/CD, Docker; HPC (Slurm, remote-SSH), Linux, profiling/experiment tracking—aimed at event-based MPC, algorithm–hardware co-design, and energy-aware edge deployment.
 
 ---
 
 ## Education
-**M.Sc. in Electrical Engineering (Computers & Systems)** — *2019–2024*  
+**M.Sc. in Electrical Engineering (Computers & Systems)** — *2024*  
 Minia University, Faculty of Engineering — Minia, Egypt  
 - Thesis: **Optimal Hybrid Control for Unstable Robotic Systems**  
 - Specialization: High-fidelity nonlinear modeling of a two-wheeled self-balancing robot and real-time MPC for robust stabilization and trajectory tracking.  
 - Core Competencies: Optimization Theory, Mathematical Modeling, Model Predictive Control, System Identification, Sim2Real Transfer.
 
-**B.Sc. in Computer and Systems Engineering** — *2013–2018*  
+**B.Sc. in Computer and Systems Engineering** — *2018*  
 Minia University, Faculty of Engineering — Minia, Egypt  
 - Graduated **1st in Class**, Distinction with Honors (3.75/4 — 89.3%).  
 - Graduation Project: **Cooperative Control of Multi-agent System for Industrial Internet of Robotic Things** (Grade: Distinction).
